@@ -1,17 +1,52 @@
+
 SQL 語法練習
 
-語法
+import Highlight from '@site/src/components/helper/HighLight';
 
+
+### <Highlight color="#25c2a0">語法</Highlight>
+
+
+#### 定義資料表
+
+```SQL
+CREATE TABLE users (
+    name VARCHAR(100),
+    age INTEGER,
+    email VARCHAR(200)
+)
 ```
---- 查詢所有欄位
+
+#### 查詢所有欄位
+
+```SQL
 SELECT * FORM  users
-
---- 查詢特定欄位
-SELECT name, age FROM users
-
 ```
 
+#### 查詢特定欄位
+
+```SQL
+SELECT name, age FROM users ;
 ```
+#### Where 語法 - 查詢特定欄位
+
+```SQL
+SELECT name, price
+FROM products
+WHERE category = '3C';
+```
+
+#### 新增別名
+```SQL
+SELECT
+    name AS '姓名'
+    65 - age AS '距離退休年數'
+FROM users 
+```
+
+### <Highlight color="#25c2a0">練習</Highlight>
+
+```js
 -- 商品資料表
 CREATE TABLE products (
     name VARCHAR(100),           -- 商品名稱
@@ -33,13 +68,11 @@ INSERT INTO products (name, price, discount_price, stock, category, status) VALU
 
 ```
 
-### 練習
-
-題目:
-```sql
+```js
 情境 1：單品查詢
 客人：「這張北歐風雙人沙發多少錢？」
 小美想查：想找到這張沙發的價格和庫存
+
 
 SELECT name,price,stock
 FROM products
