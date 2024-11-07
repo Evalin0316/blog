@@ -87,11 +87,6 @@ const config = {
             label: 'Programming Notes',
           },
           {
-            to:'/japaneseLearning',
-            label: 'Japanese Learning',
-            position: 'left',
-          },
-          {
             to: '/blog',
             label: 'blog', 
             position: 'left'
