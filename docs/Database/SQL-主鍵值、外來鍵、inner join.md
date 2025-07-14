@@ -24,6 +24,10 @@ import Highlight from '@site/src/components/helper/HighLight';
 | 5 | 小智 | 三年二班 | 男 | 9 |
 
 
+### 關於型別
+<Highlight color="#25c2a0">Serial</Highlight>屬於pseudo data types，
+使用Serial將會有序的產生清單
+
 ```js
 // 建立班級資料庫
 CREATE TABLE class(
