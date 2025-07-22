@@ -4,7 +4,7 @@ import useStateErrorExample from '@site/src/image/react_useState_error.gif';
 
 # React效能優化實戰工作坊筆記 (一)
 
-近期因為上了<a href='https://learn.thisweb.dev'>this.web</a>，Resct效能優化實戰工作坊的課程。
+近期因為上了<a href='https://learn.thisweb.dev'>this.web</a>，React效能優化實戰工作坊的課程。
 從課程中解開一些平常開發時遇到會遇到的問題，甚至是不知道的觀念，內容相當豐富。
 但是光是聽過去還是有蠻多無法馬上消化的內容XD，所以決定透過筆記與實作來深化觀念。
 
